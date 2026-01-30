@@ -20,4 +20,4 @@ CSS was used extensively to enhance visual presentation and responsiveness. Flex
 
 The project emphasizes simplicity while covering essential web development concepts such as semantic HTML, styling with CSS, responsive design principles, and basic user interface structuring. By keeping the project lightweight and dependency-free, the portfolio can be easily maintained and extended in the future with additional sections, animations, or JavaScript functionality.
 
-output- 
+output- <img width="1875" height="954" alt="Image" src="https://github.com/user-attachments/assets/c68aa1c2-92cb-4e81-876a-e9626fa586d9" />
