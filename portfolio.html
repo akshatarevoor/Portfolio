@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+header{
+background:#333;
+color:white;
+padding:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 10px;
+}
+
+.hero{
+background:#4facfe;
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+section{
+padding:40px 20px;
+text-align:center;
+}
+
+.project{
+border:1px solid #ccc;
+padding:15px;
+margin:10px auto;
+max-width:400px;
+}
+
+ul{
+list-style:none;
+}
+
+ul li{
+margin:5px 0;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+@media(max-width:600px){
+header{
+flex-direction:column;
+}
+nav{
+margin-top:10px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>My Portfolio</h2>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section id="home" class="hero">
+<h1>Hello, I'm a Developer</h1>
+<p>Welcome to my portfolio website</p>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<p>I am a passionate web developer learning HTML, CSS and JavaScript. I enjoy building simple and responsive websites.</p>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="project">
+<h3>Quiz Application</h3>
+<p>JavaScript quiz app with scoring and feedback.</p>
+</div>
+
+<div class="project">
+<h3>Real-Time Chat App</h3>
+<p>Chat application using Firebase.</p>
+</div>
+
+<div class="project">
+<h3>Portfolio Website</h3>
+<p>Responsive single-page portfolio.</p>
+</div>
+
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>GitHub</li>
+</ul>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: yourname@example.com</p>
+</section>
+
+<footer>
+<p>© 2026 My Portfolio</p>
+</footer>
+
+</body>
+</html>
